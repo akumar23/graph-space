@@ -1019,7 +1019,7 @@ export const LaunchDetailsDocument = gql`
     providedIn: 'root'
   })
   export class LaunchDetailsGQL extends Apollo.Query<LaunchDetailsQuery, LaunchDetailsQueryVariables> {
-    document = LaunchDetailsDocument;
+    override document = LaunchDetailsDocument;
     
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
@@ -1046,7 +1046,7 @@ export const PastLaunchesListDocument = gql`
     providedIn: 'root'
   })
   export class PastLaunchesListGQL extends Apollo.Query<PastLaunchesListQuery, PastLaunchesListQueryVariables> {
-    document = PastLaunchesListDocument;
+    override document = PastLaunchesListDocument;
     
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
