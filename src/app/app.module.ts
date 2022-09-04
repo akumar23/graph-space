@@ -8,12 +8,14 @@ import { LaunchDetailsComponent } from './launch-details/launch-details.componen
 import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RelativeTimePipe } from './relative-time/relative-time.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     LaunchListComponent,
-    LaunchDetailsComponent
+    LaunchDetailsComponent,
+    RelativeTimePipe
   ],
   imports: [
     BrowserModule,
