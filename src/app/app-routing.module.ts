@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LaunchDetailsComponent } from './launch-details/launch-details.component';
 import { LaunchListComponent } from './launch-list/launch-list.component';
+import { LaunchDetailsComponent } from './launch-details/launch-details.component';
 
 const routes: Routes = [
   {
